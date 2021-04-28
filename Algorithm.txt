@@ -1,6 +1,5 @@
 Algorithm - Assignment3
 Name: Emma Boulay
-Student Number: 101073617
 
 /***** Algorithm for User *****/
 Instantiate message queues
