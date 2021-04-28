@@ -1,0 +1,50 @@
+Algorithm - Assignment3
+Name: Emma Boulay
+Student Number: 101073617
+
+/***** Algorithm for User *****/
+Instantiate message queues
+Loop while running is 1:
+    Get input from user
+    send input command to Text-Manager
+    if user input is "append":
+        Get sentence from user
+        Send sentence to Text-Manager
+    Else If user input is "delete":
+        Get word from user
+        Send word to Text-Manager
+    Else If user input is "remove":
+        Get word from user
+        Send word to Text-Manager
+    Else If user input is "search":
+        Get word from user
+        Send word to Text-Manager
+        Receive and print sentence from Text-Messager
+   Else If user input is "exit":
+       running is 0, leave while loop
+
+Exit process
+
+/***** Algorithm for Text-manager *****/
+Instantiate message queues
+Loop while running is 1:
+    Receive command from User (toTextManagerQueue)
+    if command is "append":
+            Receive sentence from user
+            Append sentence to text stored in text-manager
+        Else If user input is "delete":
+             Receive word from user
+             Remove every occurrence of word from text stored in text-manager
+        Else If user input is "remove":
+            Receive word from user
+            Remove first sentence that contains word from text stored in text-manager
+        Else If user input is "search":
+            Receive word from user
+            Find first sentence that contains word from text stored in text-manager
+            Send sentence to User (toUserQueue)
+       Else If user input is "exit":
+           Print averages
+           running is 0, leave while loop
+
+Delete message queues
+Exit process

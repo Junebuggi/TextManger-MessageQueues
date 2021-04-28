@@ -1,0 +1,29 @@
+append
+Nobody met the efficient soup.
+append
+The plain move measures branch.
+append
+Overt interest flowers crazy.
+append
+The technical repair.
+append
+Imagines the cavernous economy.
+append
+The cold state ate the final.
+append
+The dazzling gas ate the address.
+append
+Existing shake slapped the prior.
+delete
+world
+delete
+the
+delete
+ate
+delete
+flowers
+delete
+technical
+delete
+move
+exit

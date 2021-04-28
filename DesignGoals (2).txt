@@ -1,0 +1,17 @@
+Design Goals
+Name: Emma Boulay
+Student Number: 101073617
+
+Goal 1: Create two processes that communicate through message queues. This was done using
+    msgget() and having two unique queues. One to pass messages to the Text-Manager (toTextManagerQueue)
+    and another to pass messages to the user (toUserQueue).
+Goal 2: Create 4 functions to manipulate the text stored in the text manager. This is done
+    by using the String.h functions.
+Goal 3: Create a data structure to store the text in text-manager. This was accomplished by
+    creating a program (singly_linked_list) that has functions to create and manipulate
+    linked lists.
+Goal 3: Get the average execution time it takes the Text-Manager to execute each command.
+    This is done by creating a Average_t struct that has a average variable and a total data
+    variable. The time before and after the command is measured to then update the commands
+    Average_t pointer variable. Each command's average is printed before the Text-Manager
+    process terminates.
