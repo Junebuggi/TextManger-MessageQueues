@@ -3,7 +3,6 @@
  * singly linked lists.
  *
  * @author Emma Boulay
- * @studentNumber 101073617
  */
 
 #include "singly_linked_list.h"
