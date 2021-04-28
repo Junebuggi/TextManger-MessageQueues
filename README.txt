@@ -1,6 +1,6 @@
 Assignment 3: Text Management System (Using Message Queues)
 Name: Emma Boulay
-Student Number: 101073617
+
 Note: Punctuation is allowed inside the sentence, I have created a
 function that will account for that. If the word applesauce is in
 the sentence and you try to remove apple, applesauce will not be removed,
@@ -11,33 +11,31 @@ sentence to append, a period will be added by default. A sentence may only end i
 '.', '?' or '!'
 
 Note 2: I have provided use of command line arguments that will read in from the
-text files provided to test the system. If not cmd line args provided you will have
+text files provided to test the system. If no cmd line args provided you will have
 to type in the commands and parameters to pass to the text manager from the user.
 
 Note 3: The max character length that can be passed from the user to the text-manager
 is 35.
 
 Set-Up Instructions:
-1. Extract the archived files in 101073617_Assignment3.tar.gz
-	$ tar -xvzf 101073617_Assignment3.tar.gz
-2. Run the makefile to compile:
+1. Run the makefile to compile:
 	$ make
-3. Run the program with inputTest1 to test the append function :
+2. Run the program with inputTest1 to test the append function :
 	$ ./textManager
 	$ ./user appendTest  (in new window)
-4. Run the program with inputTest2 to test the delete function :
+3. Run the program with inputTest2 to test the delete function :
 	$ ./textManager
 	$ ./user deleteTest  (in new window)
-5. Run the program with inputTest3 to test the remove function :
+4. Run the program with inputTest3 to test the remove function :
 	$ ./textManager
 	$ ./user removeTest  (in new window)
-6. Run the program with inputTest4 to test the search function :
+5. Run the program with inputTest4 to test the search function :
 	$ ./textManager
 	$ ./user searchTest  (in new window)
-7. Run the program with inputTest5 to test all functions :
+6. Run the program with inputTest5 to test all functions :
 	$ ./textManager
 	$ ./user allTest  (in new window)
-8. Run the program to test user-input functionality :
+7. Run the program to test user-input functionality :
 	$ ./textManager
 	$ ./user             (in new window)
 
