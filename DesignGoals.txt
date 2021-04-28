@@ -1,6 +1,5 @@
 Design Goals
 Name: Emma Boulay
-Student Number: 101073617
 
 Goal 1: Create two processes that communicate through message queues. This was done using
     msgget() and having two unique queues. One to pass messages to the Text-Manager (toTextManagerQueue)
