@@ -6,7 +6,6 @@
  * a new node.
  *
  * @author Emma Boulay
- * @studentNumber 101073617
  */
 
 #include "shared.h"
