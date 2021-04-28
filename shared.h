@@ -4,7 +4,6 @@
  * and text-manager programs
  *
  * @author Emma Boulay
- * @studentNumber 101073617
  */
 #ifndef SHARED_H
 #define SHARED_H
