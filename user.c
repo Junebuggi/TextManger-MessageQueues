@@ -5,7 +5,6 @@
  * program will terminate on the "exit" command.
  *
  * @author Emma Boualy
- * @studentNumber 101073617
  */
 
 #include "shared.h"
